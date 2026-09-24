@@ -1,0 +1,22 @@
+# Data is excluded from version control -- see data/README.md
+
+# Source data is NOT published. This is a real business's transaction
+# data; the extraction scripts are included, the data is not.
+data/*
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+*.mdf
+*.ldf
+*.bak
+
+# Power BI file embeds the full dataset
+*.pbix
+
+# Local
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*
